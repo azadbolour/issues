@@ -26,8 +26,8 @@ dependency of my project. And my source only includes examples.
 - Now let's copy the single dustbin dnd example.
 
 - cd src
-  mv App.js App.js.boilerplate
-  mv index.js index.js.boilerplate
+  - mv App.js App.js.boilerplate
+  - mv index.js index.js.boilerplate
 
 - cp -a ~/software/react-dnd/examples/01\ Dustbin/Single\ Target/\*.js .
 
@@ -35,16 +35,16 @@ dependency of my project. And my source only includes examples.
 
 - Add dependencies to package.json:
 
-    -- "react-dnd": "^2.1.4",
-    -- "react-dnd-html5-backend": "^2.1.2",
+    - "react-dnd": "^2.1.4",
+    - "react-dnd-html5-backend": "^2.1.2",
 
 - Add dev dependecies:
 
-    -- "babel-plugin-transform-decorators-legacy": "1.3.4",
+    - "babel-plugin-transform-decorators-legacy": "1.3.4",
  
 - Add plugin to .babelrc
 
-    -- "plugins": ["transform-decorators-legacy"]
+    - "plugins": ["transform-decorators-legacy"]
 
 - npm install
 
@@ -65,7 +65,7 @@ dependency of my project. And my source only includes examples.
 
 - Add to dev dependencies:
 
-    -- "webpack-dev-server": "^1.12.1"
+    - "webpack-dev-server": "^1.12.1"
 
 - npm install
 
@@ -75,6 +75,8 @@ dependency of my project. And my source only includes examples.
 
 
 ## Errors 1
+
+These errors were fixed (see above). Included here for completeness.
 
 ERROR in ./src/Container.js
 Module not found: Error: Cannot resolve module 'react-dnd' in /Users/azadbolour/dev/bolour/main/issues/master/react-dnd-boilerplate/src
